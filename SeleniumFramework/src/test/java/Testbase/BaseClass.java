@@ -35,6 +35,7 @@ public class BaseClass
 	@BeforeClass
 	public void startTest()
 	{
+	
 		driver=Applicationfactory.BrowserFactory.getBrowser(Applicationfactory.DataProviderFactory.getConfig().getBrowser(),Applicationfactory.DataProviderFactory.getConfig().getTestURL());
 	}
 	
